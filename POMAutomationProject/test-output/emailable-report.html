@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">demoTestSuite</th></tr>
+<tr><td><a href="#t0">Create New Computer Successful</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,254</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Cancel while Create New Computer</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,691</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Create Computer unsuccessful when missing Required Fields</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">2,403</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Create Computer unsuccessful Wrong Date Format for Discontinued</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,200</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Create Computer unsuccessful Wrong Date Format for Introduced</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,256</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">Create Computer unsuccessful when Discontinued Date is Before Introduce</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,035</td><td></td><td></td></tr>
+<tr><td><a href="#t6">Create New Computer Successful_keepdata</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,836</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t7">Update Computer Details Successful</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,679</td><td></td><td></td></tr>
+<tr><td><a href="#t8">Verify data sorting is working_Introduced</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,115</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t9">Verify data sorting is working_Discontinued</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">7,998</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">146,467</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">demoTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Create New Computer Successful &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m0">createComputerScenario</a></td><td rowspan="1">1604656808343</td><td rowspan="1">19349</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Cancel while Create New Computer &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m1">createComputerScenario</a></td><td rowspan="1">1604656827978</td><td rowspan="1">19425</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Create Computer unsuccessful when missing Required Fields &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m2">createComputerScenario</a></td><td rowspan="1">1604656847676</td><td rowspan="1">2133</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Create Computer unsuccessful Wrong Date Format for Discontinued &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m3">createComputerScenario</a></td><td rowspan="1">1604656850089</td><td rowspan="1">22923</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Create Computer unsuccessful Wrong Date Format for Introduced &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m4">createComputerScenario</a></td><td rowspan="1">1604656873294</td><td rowspan="1">22977</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">Create Computer unsuccessful when Discontinued Date is Before Introduce &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m5">createComputerScenario</a></td><td rowspan="1">1604656896547</td><td rowspan="1">23761</td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">Create New Computer Successful_keepdata &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m6">createComputerScenario</a></td><td rowspan="1">1604656920585</td><td rowspan="1">7567</td></tr></tbody>
+<tbody id="t7"><tr><th colspan="4">Update Computer Details Successful &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m7">updateComputerScenario</a></td><td rowspan="1">1604656928424</td><td rowspan="1">10409</td></tr></tbody>
+<tbody id="t8"><tr><th colspan="4">Verify data sorting is working_Introduced &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m8">verifyDataSorting</a></td><td rowspan="1">1604656939118</td><td rowspan="1">5833</td></tr></tbody>
+<tbody id="t9"><tr><th colspan="4">Verify data sorting is working_Discontinued &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.scripts.HandleComputersData</td><td><a href="#m9">verifyDataSorting</a></td><td rowspan="1">1604656945225</td><td rowspan="1">7727</td></tr></tbody>
+</table>
+<h2>Create New Computer Successful</h2><h3 id="m0">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=Hewlett-Packard, Error Column=, Clean Data=Yes, Introduced date=2020-05-05, Discontinued date=2020-05-05, Computer Name=ASUS, Sort=, Test Name=Create New Computer Successful}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Cancel while Create New Computer</h2><h3 id="m1">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=Sinclair Research Ltd, Error Column=, Clean Data=Yes, Introduced date=, Discontinued date=, Computer Name=Apple, Sort=, Test Name=Cancel while Create New Computer}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create Computer unsuccessful when missing Required Fields</h2><h3 id="m2">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=Moore School of Electrical Engineering, Error Column=Computer Name, Clean Data=Yes, Introduced date=, Discontinued date=, Computer Name=, Sort=, Test Name=Create Computer unsuccessful when missing Required Fields}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create Computer unsuccessful Wrong Date Format for Discontinued</h2><h3 id="m3">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=, Error Column=Discontinued date, Clean Data=Yes, Introduced date=, Discontinued date=05-2020-jan, Computer Name=someName, Sort=, Test Name=Create Computer unsuccessful Wrong Date Format for Discontinued}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create Computer unsuccessful Wrong Date Format for Introduced</h2><h3 id="m4">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=, Error Column=Introduced date, Clean Data=Yes, Introduced date=05-2020-jan, Discontinued date=, Computer Name=Dell, Sort=, Test Name=Create Computer unsuccessful Wrong Date Format for Introduced}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create Computer unsuccessful when Discontinued Date is Before Introduce</h2><h3 id="m5">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=, Error Column=Discontinued date, Clean Data=Yes, Introduced date=2020-05-05, Discontinued date=2019-04-04, Computer Name=Dell, Sort=, Test Name=Create Computer unsuccessful when Discontinued Date is Before Introduce}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: There should be error on column Discontinued date expected [true] but found [false]
+	at com.frame.MainPage.createComputer(MainPage.java:143)
+	at com.scripts.HandleComputersData.createComputerScenario(HandleComputersData.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Create New Computer Successful_keepdata</h2><h3 id="m6">com.scripts.HandleComputersData#createComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=Hewlett-Packard, Error Column=, Clean Data=No, Introduced date=2020-05-05, Discontinued date=2020-05-05, Computer Name=ASUS, Sort=, Test Name=Create New Computer Successful_keepdata}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Update Computer Details Successful</h2><h3 id="m7">com.scripts.HandleComputersData#updateComputerScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=, Confirm Operation=Create, Company=ASUS, Error Column=, Clean Data=No, Introduced date=2020-06-11, Discontinued date=2020-06-11, Computer Name=ASUS_modified, Sort=, Test Name=Update Computer Details Successful}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verify data sorting is working_Introduced</h2><h3 id="m8">com.scripts.HandleComputersData#verifyDataSorting</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=Ascending, Confirm Operation=, Company=, Error Column=, Clean Data=No, Introduced date=, Discontinued date=, Computer Name=, Sort=Introduced, Test Name=Verify data sorting is working_Introduced}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Data doesn&apos;t sort follow ascending order expected [true] but found [false]
+	at com.frame.MainPage.verifySortOrder(MainPage.java:486)
+	at com.frame.MainPage.sortByColumn(MainPage.java:439)
+	at com.scripts.HandleComputersData.verifyDataSorting(HandleComputersData.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verify data sorting is working_Discontinued</h2><h3 id="m9">com.scripts.HandleComputersData#verifyDataSorting</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Order=Descending, Confirm Operation=, Company=, Error Column=, Clean Data=No, Introduced date=, Discontinued date=, Computer Name=, Sort=Discontinued, Test Name=Verify data sorting is working_Discontinued}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-HHFJC6T&apos;, ip: &apos;11.11.228.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gamer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a34a5e0c13307ab6fdb8a68fa3d84c86
+*** Element info: {Using=link text, value=Discontinued}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByLinkText(RemoteWebElement.java:229)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+	at com.frame.MainPage.sortByColumn(MainPage.java:430)
+	at com.scripts.HandleComputersData.verifyDataSorting(HandleComputersData.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

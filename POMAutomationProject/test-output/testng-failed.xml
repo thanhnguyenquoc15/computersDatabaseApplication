@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demoTestSuite]">
+  <test thread-count="5" name="Create Computer unsuccessful when Discontinued Date is Before Introduce(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="dataFile" value="handleComputers.xlsx"/>
+    <parameter name="dataSheet" value="testData"/>
+    <classes>
+      <class name="com.scripts.HandleComputersData">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethodClass"/>
+          <include name="close"/>
+          <include name="createComputerScenario" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.scripts.HandleComputersData -->
+    </classes>
+  </test> <!-- Create Computer unsuccessful when Discontinued Date is Before Introduce(failed) -->
+  <test thread-count="5" name="Verify data sorting is working_Introduced(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="dataFile" value="handleComputers.xlsx"/>
+    <parameter name="dataSheet" value="testData"/>
+    <classes>
+      <class name="com.scripts.HandleComputersData">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethodClass"/>
+          <include name="close"/>
+          <include name="afterSuite"/>
+          <include name="verifyDataSorting" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.scripts.HandleComputersData -->
+    </classes>
+  </test> <!-- Verify data sorting is working_Introduced(failed) -->
+  <test thread-count="5" name="Verify data sorting is working_Discontinued(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="dataFile" value="handleComputers.xlsx"/>
+    <parameter name="dataSheet" value="testData"/>
+    <classes>
+      <class name="com.scripts.HandleComputersData">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethodClass"/>
+          <include name="close"/>
+          <include name="afterSuite"/>
+          <include name="verifyDataSorting" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.scripts.HandleComputersData -->
+    </classes>
+  </test> <!-- Verify data sorting is working_Discontinued(failed) -->
+</suite> <!-- Failed suite [demoTestSuite] -->

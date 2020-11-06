@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="demoTestSuite">
+
+ 
+	 <test name="Create New Computer Successful">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+ 	<test name="Cancel while Create New Computer">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="Create Computer unsuccessful when missing Required Fields">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />  
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="Create Computer unsuccessful Wrong Date Format for Discontinued">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Create Computer unsuccessful Wrong Date Format for Introduced">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Create Computer unsuccessful when Discontinued Date is Before Introduce">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Create New Computer Successful_keepdata">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="createComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Update Computer Details Successful">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="updateComputerScenario"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	
+	<test name="Verify data sorting is working_Introduced">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="verifyDataSorting"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Verify data sorting is working_Discontinued">
+		<parameter name="dataFile" value="handleComputers.xlsx" />
+		<parameter name="dataSheet" value="testData" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.scripts.HandleComputersData">
+				<methods>
+					<include name="verifyDataSorting"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+	
+
+</suite>

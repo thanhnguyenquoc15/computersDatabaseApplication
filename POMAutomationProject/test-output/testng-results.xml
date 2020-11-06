@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="20" total="30" passed="7" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-06T17:00:06 ICT" name="demoTestSuite" finished-at="2020-11-06T17:02:32 ICT" duration-ms="146513">
+    <groups>
+    </groups>
+    <test started-at="2020-11-06T17:00:06 ICT" name="Create New Computer Successful" finished-at="2020-11-06T17:00:27 ICT" duration-ms="21254">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@7d4f9aae]" started-at="2020-11-06T17:00:06 ICT" name="beforeClass" finished-at="2020-11-06T17:00:06 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@7d4f9aae]" started-at="2020-11-06T17:00:06 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:00:08 ICT" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@7d4f9aae]" started-at="2020-11-06T17:00:08 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:00:27 ICT" duration-ms="19349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=Hewlett-Packard, Error Column=, Clean Data=Yes, Introduced date=2020-05-05, Discontinued date=2020-05-05, Computer Name=ASUS, Sort=, Test Name=Create New Computer Successful}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@7d4f9aae]" started-at="2020-11-06T17:00:27 ICT" name="close" finished-at="2020-11-06T17:00:27 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@7d4f9aae]" started-at="2020-11-06T17:00:27 ICT" name="afterClass" finished-at="2020-11-06T17:00:27 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Create New Computer Successful -->
+    <test started-at="2020-11-06T17:00:27 ICT" name="Cancel while Create New Computer" finished-at="2020-11-06T17:00:47 ICT" duration-ms="19691">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@41a0aa7d]" started-at="2020-11-06T17:00:27 ICT" name="beforeClass" finished-at="2020-11-06T17:00:27 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@41a0aa7d]" started-at="2020-11-06T17:00:27 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:00:27 ICT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@41a0aa7d]" started-at="2020-11-06T17:00:27 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:00:47 ICT" duration-ms="19425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=Sinclair Research Ltd, Error Column=, Clean Data=Yes, Introduced date=, Discontinued date=, Computer Name=Apple, Sort=, Test Name=Cancel while Create New Computer}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@41a0aa7d]" started-at="2020-11-06T17:00:47 ICT" name="close" finished-at="2020-11-06T17:00:47 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@41a0aa7d]" started-at="2020-11-06T17:00:47 ICT" name="afterClass" finished-at="2020-11-06T17:00:47 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Cancel while Create New Computer -->
+    <test started-at="2020-11-06T17:00:47 ICT" name="Create Computer unsuccessful when missing Required Fields" finished-at="2020-11-06T17:00:49 ICT" duration-ms="2403">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@60099951]" started-at="2020-11-06T17:00:47 ICT" name="beforeClass" finished-at="2020-11-06T17:00:47 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@60099951]" started-at="2020-11-06T17:00:47 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:00:47 ICT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@60099951]" started-at="2020-11-06T17:00:47 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:00:49 ICT" duration-ms="2133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=Moore School of Electrical Engineering, Error Column=Computer Name, Clean Data=Yes, Introduced date=, Discontinued date=, Computer Name=, Sort=, Test Name=Create Computer unsuccessful when missing Required Fields}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@60099951]" started-at="2020-11-06T17:00:49 ICT" name="close" finished-at="2020-11-06T17:00:49 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@60099951]" started-at="2020-11-06T17:00:49 ICT" name="afterClass" finished-at="2020-11-06T17:00:49 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Create Computer unsuccessful when missing Required Fields -->
+    <test started-at="2020-11-06T17:00:49 ICT" name="Create Computer unsuccessful Wrong Date Format for Discontinued" finished-at="2020-11-06T17:01:13 ICT" duration-ms="23200">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@71ba6d4e]" started-at="2020-11-06T17:00:49 ICT" name="beforeClass" finished-at="2020-11-06T17:00:49 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@71ba6d4e]" started-at="2020-11-06T17:00:49 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:00:50 ICT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@71ba6d4e]" started-at="2020-11-06T17:00:50 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:01:13 ICT" duration-ms="22923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=, Error Column=Discontinued date, Clean Data=Yes, Introduced date=, Discontinued date=05-2020-jan, Computer Name=someName, Sort=, Test Name=Create Computer unsuccessful Wrong Date Format for Discontinued}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@71ba6d4e]" started-at="2020-11-06T17:01:13 ICT" name="close" finished-at="2020-11-06T17:01:13 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@71ba6d4e]" started-at="2020-11-06T17:01:13 ICT" name="afterClass" finished-at="2020-11-06T17:01:13 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Create Computer unsuccessful Wrong Date Format for Discontinued -->
+    <test started-at="2020-11-06T17:01:13 ICT" name="Create Computer unsuccessful Wrong Date Format for Introduced" finished-at="2020-11-06T17:01:36 ICT" duration-ms="23256">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@5ab956d7]" started-at="2020-11-06T17:01:13 ICT" name="beforeClass" finished-at="2020-11-06T17:01:13 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@5ab956d7]" started-at="2020-11-06T17:01:13 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:01:13 ICT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@5ab956d7]" started-at="2020-11-06T17:01:13 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:01:36 ICT" duration-ms="22977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=, Error Column=Introduced date, Clean Data=Yes, Introduced date=05-2020-jan, Discontinued date=, Computer Name=Dell, Sort=, Test Name=Create Computer unsuccessful Wrong Date Format for Introduced}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@5ab956d7]" started-at="2020-11-06T17:01:36 ICT" name="close" finished-at="2020-11-06T17:01:36 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@5ab956d7]" started-at="2020-11-06T17:01:36 ICT" name="afterClass" finished-at="2020-11-06T17:01:36 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Create Computer unsuccessful Wrong Date Format for Introduced -->
+    <test started-at="2020-11-06T17:01:36 ICT" name="Create Computer unsuccessful when Discontinued Date is Before Introduce" finished-at="2020-11-06T17:02:00 ICT" duration-ms="24035">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@2a7f1f10]" started-at="2020-11-06T17:01:36 ICT" name="beforeClass" finished-at="2020-11-06T17:01:36 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@2a7f1f10]" started-at="2020-11-06T17:01:36 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:01:36 ICT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@2a7f1f10]" started-at="2020-11-06T17:01:36 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:02:00 ICT" duration-ms="23761" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=, Error Column=Discontinued date, Clean Data=Yes, Introduced date=2020-05-05, Discontinued date=2019-04-04, Computer Name=Dell, Sort=, Test Name=Create Computer unsuccessful when Discontinued Date is Before Introduce}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[There should be error on column Discontinued date expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: There should be error on column Discontinued date expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.frame.MainPage.createComputer(MainPage.java:143)
+at com.scripts.HandleComputersData.createComputerScenario(HandleComputersData.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@2a7f1f10]" started-at="2020-11-06T17:02:00 ICT" name="close" finished-at="2020-11-06T17:02:00 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@2a7f1f10]" started-at="2020-11-06T17:02:00 ICT" name="afterClass" finished-at="2020-11-06T17:02:00 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Create Computer unsuccessful when Discontinued Date is Before Introduce -->
+    <test started-at="2020-11-06T17:02:00 ICT" name="Create New Computer Successful_keepdata" finished-at="2020-11-06T17:02:08 ICT" duration-ms="7836">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@7526515b]" started-at="2020-11-06T17:02:00 ICT" name="beforeClass" finished-at="2020-11-06T17:02:00 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@7526515b]" started-at="2020-11-06T17:02:00 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:02:00 ICT" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="createComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@7526515b]" started-at="2020-11-06T17:02:00 ICT" name="createComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:02:08 ICT" duration-ms="7567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=Hewlett-Packard, Error Column=, Clean Data=No, Introduced date=2020-05-05, Discontinued date=2020-05-05, Computer Name=ASUS, Sort=, Test Name=Create New Computer Successful_keepdata}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@7526515b]" started-at="2020-11-06T17:02:08 ICT" name="close" finished-at="2020-11-06T17:02:08 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@7526515b]" started-at="2020-11-06T17:02:08 ICT" name="afterClass" finished-at="2020-11-06T17:02:08 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Create New Computer Successful_keepdata -->
+    <test started-at="2020-11-06T17:02:08 ICT" name="Update Computer Details Successful" finished-at="2020-11-06T17:02:18 ICT" duration-ms="10679">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@6e6f2380]" started-at="2020-11-06T17:02:08 ICT" name="beforeClass" finished-at="2020-11-06T17:02:08 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@6e6f2380]" started-at="2020-11-06T17:02:08 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:02:08 ICT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="updateComputerScenario(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@6e6f2380]" started-at="2020-11-06T17:02:08 ICT" name="updateComputerScenario" data-provider="dataMap" finished-at="2020-11-06T17:02:18 ICT" duration-ms="10409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=, Confirm Operation=Create, Company=ASUS, Error Column=, Clean Data=No, Introduced date=2020-06-11, Discontinued date=2020-06-11, Computer Name=ASUS_modified, Sort=, Test Name=Update Computer Details Successful}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComputerScenario -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@6e6f2380]" started-at="2020-11-06T17:02:18 ICT" name="close" finished-at="2020-11-06T17:02:18 ICT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@6e6f2380]" started-at="2020-11-06T17:02:18 ICT" name="afterClass" finished-at="2020-11-06T17:02:18 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Update Computer Details Successful -->
+    <test started-at="2020-11-06T17:02:18 ICT" name="Verify data sorting is working_Introduced" finished-at="2020-11-06T17:02:24 ICT" duration-ms="6115">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@78e4deb0]" started-at="2020-11-06T17:02:18 ICT" name="beforeClass" finished-at="2020-11-06T17:02:18 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@78e4deb0]" started-at="2020-11-06T17:02:18 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:02:19 ICT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="verifyDataSorting(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@78e4deb0]" started-at="2020-11-06T17:02:19 ICT" name="verifyDataSorting" data-provider="dataMap" finished-at="2020-11-06T17:02:24 ICT" duration-ms="5833" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=Ascending, Confirm Operation=, Company=, Error Column=, Clean Data=No, Introduced date=, Discontinued date=, Computer Name=, Sort=Introduced, Test Name=Verify data sorting is working_Introduced}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Data doesn't sort follow ascending order expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Data doesn't sort follow ascending order expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at com.frame.MainPage.verifySortOrder(MainPage.java:486)
+at com.frame.MainPage.sortByColumn(MainPage.java:439)
+at com.scripts.HandleComputersData.verifyDataSorting(HandleComputersData.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataSorting -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@78e4deb0]" started-at="2020-11-06T17:02:24 ICT" name="close" finished-at="2020-11-06T17:02:24 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@78e4deb0]" started-at="2020-11-06T17:02:24 ICT" name="afterClass" finished-at="2020-11-06T17:02:24 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Verify data sorting is working_Introduced -->
+    <test started-at="2020-11-06T17:02:24 ICT" name="Verify data sorting is working_Discontinued" finished-at="2020-11-06T17:02:32 ICT" duration-ms="7998">
+      <class name="com.scripts.HandleComputersData">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:00:00 ICT" name="beforeSuite" finished-at="2020-11-06T17:00:06 ICT" duration-ms="5483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69c532af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:02:24 ICT" name="beforeClass" finished-at="2020-11-06T17:02:24 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodClass()[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:02:24 ICT" name="beforeMethodClass" finished-at="2020-11-06T17:02:25 ICT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method signature="verifyDataSorting(java.util.Hashtable)[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:02:25 ICT" name="verifyDataSorting" data-provider="dataMap" finished-at="2020-11-06T17:02:32 ICT" duration-ms="7727" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=Descending, Confirm Operation=, Company=, Error Column=, Clean Data=No, Introduced date=, Discontinued date=, Computer Name=, Sort=Discontinued, Test Name=Verify data sorting is working_Discontinued}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HHFJC6T', ip: '11.11.228.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gamer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a34a5e0c13307ab6fdb8a68fa3d84c86
+*** Element info: {Using=link text, value=Discontinued}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-HHFJC6T', ip: '11.11.228.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gamer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a34a5e0c13307ab6fdb8a68fa3d84c86
+*** Element info: {Using=link text, value=Discontinued}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+at org.openqa.selenium.remote.RemoteWebElement.findElementByLinkText(RemoteWebElement.java:229)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+at com.frame.MainPage.sortByColumn(MainPage.java:430)
+at com.scripts.HandleComputersData.verifyDataSorting(HandleComputersData.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataSorting -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:02:32 ICT" name="close" finished-at="2020-11-06T17:02:32 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:02:32 ICT" name="afterClass" finished-at="2020-11-06T17:02:32 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.scripts.HandleComputersData@470734c3]" started-at="2020-11-06T17:02:32 ICT" name="afterSuite" finished-at="2020-11-06T17:02:33 ICT" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.scripts.HandleComputersData -->
+    </test> <!-- Verify data sorting is working_Discontinued -->
+  </suite> <!-- demoTestSuite -->
+</testng-results>
