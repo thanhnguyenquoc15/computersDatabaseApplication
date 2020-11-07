@@ -1,4 +1,3 @@
-# technicalInterviewCodes
 This is a selenium webdriver automation framework
 Use Page Object Model design pattern to create test cases.
 ====
